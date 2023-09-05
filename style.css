@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {    
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: #31FFE0;
+}
+.container{
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.parallax, .inner, .inner2, .inner3 {
+  background-attachment: fixed; /* This creates the parallax effect */
+  height: 100vh;
+  background-size: contain;
+}
+.inner, .inner2, .inner3 {
+  z-index: -1;
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.inner{
+  background-image: url("https://org.olk1.com/picz/1692367081.jpg");
+}
+.inner2{
+  background-image: url("https://org.olk1.com/picz/1692367114.jpg");
+}
+.inner3{
+  background-image: url("https://org.olk1.com/picz/1691786490.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+/* parallax sections */
+.img1{
+  background-image: url('https://org.olk1.com/picz/1691950856.jpg');
+}
+.img2{
+  background-image: url('https://org.olk1.com/picz/1691959799.jpg');
+}
+.img3{
+  background-image: url('https://org.olk1.com/picz/1691960393.jpg');
+}
+.img4{
+  background-image: url('https://org.olk1.com/picz/1691961717.jpg');
+}
+
+
+
+.content {
+  display: flex;
+  height: fit-content;
+}
+.trans{
+  width: 50%;
+}
+.bg{
+  background-image: url('https://org.olk1.com/picz/1692367356.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.text-block{
+  background: white;
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  height: 100vh;
+  padding: 300px 150px;
+}
+.text-block2{
+  background: white;
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  padding: 150px;
+}
+.text-block p, .text-block2 p{
+  margin: 20px;
+  font-size: 24px;
+}
+
+
+
+/* @media screen and (min-width: 1200px){
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 4rem 0;
+  }
+} */

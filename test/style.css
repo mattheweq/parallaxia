@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.section {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.split-image {
+    flex: 1;
+    background-image: url('https://org.olk1.com/picz/1692367081.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.split-text {
+    flex: 1;
+    background-color: #fff; /* Background color for the text side */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.split-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section{
+  height: 100vh;
+  background: red;
+}
